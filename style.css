@@ -1,0 +1,106 @@
+
+.eje-1{
+    padding: 0px;
+    margin:0px;
+    margin-top: 50px;
+
+}
+.tit-1{
+    color: red;
+}
+.tit-2{
+    color:red;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    top: 250px;
+}
+.eje{
+margin-bottom: 60px;
+}
+.bloque{
+    margin: 40px;
+}
+.parrafo1{
+    border: springgreen solid 1px;
+    position: static;
+   
+    
+}
+.parrafo2{
+    border: springgreen solid 1px;
+    margin: 40px;
+    position: relative ;
+    left: 25px;
+}
+.relative{
+    width: 500px;
+    height: 200px;
+    border: solid green;
+    position: relative;
+
+
+}
+.obsolute{
+    width: 200px;
+    height: 100px;
+    border: green solid;
+    position: absolute;
+    left: 300px;
+    top: 80px;
+}
+
+.contenedor{
+    width: 500px;
+    overflow-y: scroll;
+    clear: both;
+    margin-top: 2px;
+    border:greenyellow solid 1px;
+    padding: 2px;
+    height: 200px;
+}
+
+
+
+p.parrafo4 {
+    background-color: greenyellow;
+    border: green solid 1px;
+}
+ /*img {
+width: 400px;
+height: 200px;
+display: flex;
+}
+
+.contenedor2{
+    width: 400px;
+    height: 200px;
+    position: initial;
+    text-align: center;
+
+}
+.parrafoimg1{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+     
+} prueba y error para poner un texto sobre la imagen*/
+
+
+.contenedor2{
+    position: relative;
+    display: inline-block;
+    text-align: initial;
+}
+.parrafoimg1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+img{
+    width: 400px;
+    height: 200px;
+    display: flex;
+}
